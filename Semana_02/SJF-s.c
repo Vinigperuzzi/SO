@@ -1,4 +1,5 @@
 /*
+            Versão simplificada da mesma função (No sentido de que está mais incompleta)
                             ATENÇÃO
 Esse programa tem por finalidade simular a política de escalonamento SJF de sistemas operacionais.
 Por favor, note que o programa DEVE SER EXECUTADO PELO TERMINAL, pois ele exige que dois parâmetros de compilação
