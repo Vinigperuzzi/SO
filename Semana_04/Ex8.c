@@ -19,27 +19,29 @@ void *monothread(void *indice){
 }
 
 void *dualthread(void *indice){
-    int index = *(int *)indice, i, j, valor;
+    int index = *(int *)indice, i, j, valorMaior = -1;
     index = index * 10;
     for (i=index; i < index + 10; i++){
         for (j=0; j < 20; j++){
-            valor = rand()%99;
-            matrix[i][j] = valor;
+            if (matrix[i][j] > valorMaior){
+            valorMaior = matrix[i][j];
+            }
         }
     }
-    return(0);
+    pthread_exit((void *)valorMaior);
 }
 
 void *quadthread(void *indice){
-    int index = *(int *)indice, i, j, valor;
+    int index = *(int *)indice, i, j, valorMaior = -1;
     index = index * 5;
     for (i=index; i < index + 5; i++){
         for (j=0; j < 20; j++){
-            valor = rand()%99;
-            matrix[i][j] = valor;
+            if (matrix[i][j] > valorMaior){
+            valorMaior = matrix[i][j];
+            }
         }
     }
-    return(0);
+    pthread_exit((void *)valorMaior);
 }
 
 int main (void){
@@ -48,7 +50,7 @@ int main (void){
     srand(time(NULL));
     pthread_t vetorThreads[4];
     int i, j, rc, vetor[4], valor;
-    void *valorMa;
+    int *valorMa[4];
 
     for (i=0; i < TAM; i++){
         for (j=0; j < TAM; j++){
@@ -66,12 +68,52 @@ int main (void){
             exit(-1);
         }
     }
-    pthread_join(vetorThreads[0], (void **) &valorMa);
+    pthread_join(vetorThreads[0], (void **) &valorMa[0]);
     end = clock();
     ETmono = (double)(end - start)/CLOCKS_PER_SEC;
-    printf("%lf e %d\n", ETmono, valor);
+    printf("O maior valor encontrado pela função monothread foi: %d\n", *valorMa[0]);
 
-    //printf("\n\nPor fim. Os tempos de execução foram:\n\n\t\t%lf para o monothread\n\t\t%lf para 2 thread\n\t\t%lf para o 4 thread\n\n", ETmono, ETdual, ETquad);
+    start = clock();
+    for (i=0; i<2; i++){
+        vetor[i] = i;
+        rc = pthread_create(&vetorThreads[i], NULL, (void *)dualthread, (void *)&vetor[i]);
+        if (rc){
+            printf("ERRO; pthread_create() devolveu o erro %d\n", rc);
+            exit(-1);
+        }
+    }
+    for (i=0; i<2; i++)
+        pthread_join(vetorThreads[i], (void **) &valorMa[i]);
+    end = clock();
+    if (*valorMa[0] >= *valorMa[1]){
+        valor = *valorMa[0];
+    }else{
+        valor = *valorMa[1];
+    }
+    ETdual = (double)(end - start)/CLOCKS_PER_SEC;
+    printf("O maior valor encontrado pela função dualthread foi: %d\n", valor);
+
+    start = clock();
+    for (i=0; i<4; i++){
+        vetor[i] = i;
+        rc = pthread_create(&vetorThreads[i], NULL, (void *)quadthread, (void *)&vetor[i]);
+        if (rc){
+            printf("ERRO; pthread_create() devolveu o erro %d\n", rc);
+            exit(-1);
+        }
+    }
+    for (i=0; i<4; i++)
+        pthread_join(vetorThreads[i], (void **) &valorMa[i]);
+    end = clock();
+    valor = 0;
+    for (i=0; i<4; i++){
+        if (*valorMa[i] > valor)
+            valor = *valorMa[i];
+    }
+    printf("O maior valor encontrado pela função quadthread foi: %d\n", valor);
+    ETquad = (double)(end - start)/CLOCKS_PER_SEC;
+
+    printf("\n\nPor fim. Os tempos de execução foram:\n\n\t\t%lf para o monothread\n\t\t%lf para 2 thread\n\t\t%lf para o 4 thread\n\n", ETmono, ETdual, ETquad);
 
 
     return 0;
