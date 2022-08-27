@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <time.h>
-#define TAM 200
+#define TAM 20
 #define NTHREAD 4
-#define METADE 100
-#define QUARTO 50
+#define METADE 10
+#define QUARTO 5
 int matriz[TAM][TAM];
 
 void *monothread(void *indice){
