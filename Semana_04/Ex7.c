@@ -53,7 +53,7 @@ int main (void){
     /*MonoThread*/
     start = clock();
     for (i=0; i<1; i++){
-        vetTh[i] = i;
+    vetTh[i] = i;
         erro = pthread_create(&vetorThread[i], NULL, (void *)monothread, (void *)&vetTh[i]);
         if (erro != 0){
             printf("Houve algum erro com a chamada da função monothread.\n\n");
