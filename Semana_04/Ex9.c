@@ -66,6 +66,9 @@ int main (void){
         default:
             break;
         }
+        for (i=0; i<NTHREAD; i++){
+            free(hand[i]);
+        }
     }
 
     printf("\n\nO resultado final da partida foi:\n\nDe um total de %d rodadas, o jogador 1 ganhou: %d vezes e o jogador 2 ganhou %d vezes.\n\n", rodadas, n1, n2);

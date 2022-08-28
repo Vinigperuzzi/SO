@@ -82,6 +82,9 @@ int main (void){
     end = clock();
     etMono = (double)(end - start)/CLOCKS_PER_SEC;
     printf("O maior valor encontrado pela função monothread foi: %d\n", *valorMa[0]);
+    for (i=0; i<1; i++){
+            free(valorMa[i]);
+        }
 
     start = clock();
     for (i=0; i<2; i++){
@@ -103,6 +106,9 @@ int main (void){
     }
     etDual = (double)(end - start)/CLOCKS_PER_SEC;
     printf("O maior valor encontrado pela função dualthread foi: %d\n", valor);
+    for (i=0; i<2; i++){
+            free(valorMa[i]);
+        }
 
     start = clock();
     for (i=0; i<4; i++){
@@ -125,6 +131,9 @@ int main (void){
     }
     printf("O maior valor encontrado pela função quadthread foi: %d\n", valor);
     etQuad = (double)(end - start)/CLOCKS_PER_SEC;
+    for (i=0; i<NTHREAD; i++){
+            free(valorMa[i]);
+        }
 
     printf("\n\nPor fim. Os tempos de execução foram:\n\n\t\t%lf para o monothread\n\t\t%lf para 2 thread\n\t\t%lf para o 4 thread\n\n", etMono, etDual, etQuad);
 
