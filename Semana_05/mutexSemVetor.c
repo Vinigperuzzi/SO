@@ -10,16 +10,20 @@ typedef struct infoThread{
 } info;
 
 int soma = 0;
+info parametro;
 
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER ;
 
-void *somaValor(void * param){
-    info parametro = *(info *)param;
-    for (int i=parametro.ini; i<parametro.end; i++){
+void *somaValor(void * argumento){
+    pthread_mutex_lock(&mutex);
+    info param = parametro;
+    pthread_mutex_unlock(&mutex);
+    for (int i=param.ini; i<param.end; i++){
         pthread_mutex_lock(&mutex);
-        soma += parametro.vetor[i];
+        soma += param.vetor[i];
         pthread_mutex_unlock(&mutex);
     }
+    printf("Thread %d~%d: soma = %d\n\n", parametro.ini, parametro.end, soma);
     pthread_exit(NULL);
 }
 
@@ -27,39 +31,34 @@ void *somaValor(void * param){
 int main (int argc, char *argv[]){
 
     int nThreads, n, nXThreads;
-    n = atoi(argv[1]);
     nThreads = atoi(argv[2]);
-    if(n < 100 || nThreads < 2){
-        printf("\t\t\tATENÇÃO\n\nValores passados inválidos, por favor, passe um valor de pelo menos 100 para o vetor e uma quantidade de pelo menos 2 threads.\n\n");
-        exit(-1);
-    }
-    int i, j, erro;
+    n = atoi(argv[1]);
+    int i, erro;
     pthread_t vetorThread[nThreads];
-    info parametro[nThreads];
     pthread_mutex_init(&mutex, NULL);
 
     for(i=0; i<nThreads; i++){
-        if ((parametro[i].vetor = (int *)malloc(n * sizeof(int))) == NULL) {
+        if ((parametro.vetor = (int *)malloc(n * sizeof(int))) == NULL) {
 		    printf("Não foi possível alocar memória\n");
 		    exit(1);
 	    }
     }
-    for (j=0; j<nThreads; j++){
-        for (i=0; i<n; i++){
-            parametro[j].vetor[i] = i + 1;
-        }
+    for (i=0; i<n; i++){
+        parametro.vetor[i] = i + 1;
     }
 
     nXThreads = (int)n/nThreads;
 
     for(i=0; i<nThreads; i++){
-        parametro[i].ini = i * nXThreads;
+        pthread_mutex_lock(&mutex);
+        parametro.ini = i * nXThreads;
         if (i+1 != nThreads){
-            parametro[i].end = parametro[i].ini + nXThreads;
+            parametro.end = parametro.ini + nXThreads;
         } else {
-            parametro[i].end = parametro[i].ini + nXThreads + (n - (nThreads * nXThreads));
+            parametro.end = parametro.ini + nXThreads + (n - (nThreads * nXThreads));
         }
-        erro = pthread_create(&vetorThread[i], NULL, (void *)somaValor, (void *)&parametro[i]);
+        pthread_mutex_unlock(&mutex);
+        erro = pthread_create(&vetorThread[i], NULL, (void *)somaValor, NULL);
             if (erro){
                 printf("ERRO; pthread_create() devolveu o erro %d\n", erro);
                 exit(-1);
@@ -68,9 +67,7 @@ int main (int argc, char *argv[]){
     for (i=0; i<nThreads; i++){
         pthread_join(vetorThread[i], NULL);
     }
-    for (i=0; i<nThreads; i++){
-        free(parametro[i].vetor);
-    }
+    free(parametro.vetor);
 
     printf("O resultado é: %d.\n", soma);
     return 0;
