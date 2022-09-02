@@ -10,18 +10,22 @@ typedef struct infoThread{
 } info;
 
 int soma = 0;
+
 info parametro;
 
-pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER ;
+pthread_mutex_t mutexSoma = PTHREAD_MUTEX_INITIALIZER ;
+pthread_mutex_t mutexI = PTHREAD_MUTEX_INITIALIZER ;
+
 
 void *somaValor(void * argumento){
-    pthread_mutex_lock(&mutex);
-    info param = parametro;
-    pthread_mutex_unlock(&mutex);
-    for (int i=param.ini; i<param.end; i++){
-        pthread_mutex_lock(&mutex);
-        soma += param.vetor[i];
-        pthread_mutex_unlock(&mutex);
+    pthread_mutex_lock(&mutexI);
+    int ini = parametro.ini;
+    int end = parametro.end;
+    pthread_mutex_unlock(&mutexI);
+    for (int i=ini; i<end; i++){
+        pthread_mutex_lock(&mutexSoma);
+        soma += parametro.vetor[i];
+        pthread_mutex_unlock(&mutexSoma);
     }
     printf("Thread %d~%d: soma = %d\n\n", parametro.ini, parametro.end, soma);
     pthread_exit(NULL);
@@ -35,7 +39,8 @@ int main (int argc, char *argv[]){
     n = atoi(argv[1]);
     int i, erro;
     pthread_t vetorThread[nThreads];
-    pthread_mutex_init(&mutex, NULL);
+    pthread_mutex_init(&mutexSoma, NULL);
+    pthread_mutex_init(&mutexI, NULL);
 
     for(i=0; i<nThreads; i++){
         if ((parametro.vetor = (int *)malloc(n * sizeof(int))) == NULL) {
@@ -50,14 +55,14 @@ int main (int argc, char *argv[]){
     nXThreads = (int)n/nThreads;
 
     for(i=0; i<nThreads; i++){
-        pthread_mutex_lock(&mutex);
+        pthread_mutex_lock(&mutexI);
         parametro.ini = i * nXThreads;
         if (i+1 != nThreads){
             parametro.end = parametro.ini + nXThreads;
         } else {
             parametro.end = parametro.ini + nXThreads + (n - (nThreads * nXThreads));
         }
-        pthread_mutex_unlock(&mutex);
+        pthread_mutex_unlock(&mutexI);
         erro = pthread_create(&vetorThread[i], NULL, (void *)somaValor, NULL);
             if (erro){
                 printf("ERRO; pthread_create() devolveu o erro %d\n", erro);

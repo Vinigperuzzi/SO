@@ -11,7 +11,7 @@ typedef struct infoThread{
 
 int soma = 0;
 
-pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER ;
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
 void *somaValor(void * param){
     info parametro = *(info *)param;
