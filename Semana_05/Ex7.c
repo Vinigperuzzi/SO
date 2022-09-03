@@ -10,9 +10,9 @@
 int matriz[TAM][TAM];
 void *monothread(void *indice){
     int index = *(int *)indice, i, j, valor;
+    unsigned int seed = rand();
     for (i=index; i < TAM; i++){
         for (j=0; j < TAM; j++){
-            //unsigned int seed = rand();
             //valor = rand_r(&seed)%100;
             matriz[i][j] = i;
         }
@@ -23,9 +23,9 @@ void *monothread(void *indice){
 void *dualthread(void *indice){
     int index = *(int *)indice, i, j, valor;
     index = index * METADE;
+    unsigned int seed = rand();
     for (i=index; i < index + METADE; i++){
         for (j=0; j < TAM; j++){
-            //unsigned int seed = rand();
             //valor = rand_r(&seed)%100;
             matriz[i][j] = i;
         }
@@ -36,9 +36,9 @@ void *dualthread(void *indice){
 void *quadthread(void *indice){
     int index = *(int *)indice, i, j, valor;
     index = index * QUARTO;
+    unsigned int seed = rand();
     for (i=index; i < index + QUARTO; i++){
         for (j=0; j < TAM; j++){
-            //unsigned int seed = rand();
             //valor = rand_r(&seed)%100;
             matriz[i][j] = i;
         }
