@@ -3,18 +3,18 @@
 #include <pthread.h>
 #include <time.h>
 #include <unistd.h>
-#define TAM 16000
+#define TAM 20000
 #define NTHREAD 4
-#define METADE 8000
-#define QUARTO 4000
+#define METADE 10000
+#define QUARTO 5000
 int matriz[TAM][TAM];
-
 void *monothread(void *indice){
     int index = *(int *)indice, i, j, valor;
     for (i=index; i < TAM; i++){
         for (j=0; j < TAM; j++){
-            valor = rand()%100;
-            matriz[i][j] = valor;
+            //unsigned int seed = rand();
+            //valor = rand_r(&seed)%100;
+            matriz[i][j] = i;
         }
     }
     pthread_exit(NULL);
@@ -25,8 +25,9 @@ void *dualthread(void *indice){
     index = index * METADE;
     for (i=index; i < index + METADE; i++){
         for (j=0; j < TAM; j++){
-            valor = rand()%100;
-            matriz[i][j] = valor;
+            //unsigned int seed = rand();
+            //valor = rand_r(&seed)%100;
+            matriz[i][j] = i;
         }
     }
     pthread_exit(NULL);
@@ -37,8 +38,9 @@ void *quadthread(void *indice){
     index = index * QUARTO;
     for (i=index; i < index + QUARTO; i++){
         for (j=0; j < TAM; j++){
-            valor = rand()%100;
-            matriz[i][j] = valor;
+            //unsigned int seed = rand();
+            //valor = rand_r(&seed)%100;
+            matriz[i][j] = i;
         }
     }
     pthread_exit(NULL);
