@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <time.h>
-#define TAM 2000
+#include <unistd.h>
+#define TAM 16000
 #define NTHREAD 4
-#define METADE 1000
-#define QUARTO 500
+#define METADE 8000
+#define QUARTO 4000
 int matriz[TAM][TAM];
 
 void *monothread(void *indice){
@@ -51,9 +52,10 @@ int main (void){
     int i, j, vetTh[NTHREAD], erro;
 
     /*MonoThread*/
+    printf("\n\n\t\t\tRodando a mono\n\n");
     start = clock();
     for (i=0; i<1; i++){
-    vetTh[i] = i;
+        vetTh[i] = i;
         erro = pthread_create(&vetorThread[i], NULL, (void *)monothread, (void *)&vetTh[i]);
         if (erro != 0){
             printf("Houve algum erro com a chamada da função monothread.\n\n");
@@ -65,15 +67,16 @@ int main (void){
     }
     end = clock();
     etMono = (double)(end - start)/CLOCKS_PER_SEC;
-    printf("\n\nEscrevedo matriz criada pelo monothread: \n");
+    /*printf("\n\nEscrevedo matriz criada pelo monothread: \n");
     for(i=0; i<TAM; i++){
         for(j=0; j < TAM; j++){
             printf("%2.1d ", matriz[i][j]);
         }
         printf("\n");
-    }
+    }*
 
     /*Dualthread*/
+    printf("\n\n\t\t\tRodando a dual\n\n");
     start = clock();
     for (i=0; i<2; i++){
         vetTh[i] = i;
@@ -88,15 +91,16 @@ int main (void){
     }
     end = clock();
     etDual = (double)(end - start)/CLOCKS_PER_SEC;
-    printf("\n\nEscrevedo matriz criada pelo dualthread: \n");
+    /*printf("\n\nEscrevedo matriz criada pelo dualthread: \n");
     for(i=0; i<TAM; i++){
         for(j=0; j < TAM; j++){
             printf("%2.1d ", matriz[i][j]);
         }
         printf("\n");
-    }
+    }*/
 
     /*QuadThread*/
+    printf("\n\n\t\t\tRodando a quad\n\n");
     start = clock();
     for (i=0; i<4; i++){
         vetTh[i] = i;
@@ -111,13 +115,13 @@ int main (void){
     }
     end = clock();
     etQuad = (double)(end - start)/CLOCKS_PER_SEC;
-    printf("\n\nEscrevedo matriz criada pelo quadthread: \n");
+    /*printf("\n\nEscrevedo matriz criada pelo quadthread: \n");
     for(i=0; i<TAM; i++){
         for(j=0; j < TAM; j++){
             printf("%2.1d ", matriz[i][j]);
         }
         printf("\n");
-    }
+    }*/
 
     printf("\n\nPor fim. Os tempos de execução foram:\n\n\t\t%lf para o monothread\n\t\t%lf para o 2 thread\n\t\t%lf para o 4 thread\n\n", etMono, etDual, etQuad);
 }
