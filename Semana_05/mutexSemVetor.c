@@ -76,6 +76,7 @@ int main (int argc, char *argv[]){
         pthread_join(vetorThread[i], NULL);
     }
     free(parametro.vetor);
+    pthread_mutex_destroy(&mutexSoma);
 
     printf("O resultado é: %d.\n", soma);
     return 0;

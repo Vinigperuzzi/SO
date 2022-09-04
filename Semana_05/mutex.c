@@ -78,6 +78,8 @@ int main (int argc, char *argv[]){
         free(parametro[i].vetor);
     }
 
+    pthread_mutex_destroy(&mutex);
+
     printf("O resultado é: %d.\n", soma);
     return 0;
 }
