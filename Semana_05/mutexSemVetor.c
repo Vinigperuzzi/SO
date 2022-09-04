@@ -6,11 +6,11 @@
 typedef struct infoThread{
     int ini;
     int end;
+    int lock;
     int *vetor;
 } info;
 
 int soma = 0;
-
 info parametro;
 
 pthread_mutex_t mutexSoma = PTHREAD_MUTEX_INITIALIZER ;
@@ -18,16 +18,15 @@ pthread_mutex_t mutexI = PTHREAD_MUTEX_INITIALIZER ;
 
 
 void *somaValor(void * argumento){
-    pthread_mutex_lock(&mutexI);
     int ini = parametro.ini;
     int end = parametro.end;
-    pthread_mutex_unlock(&mutexI);
+    parametro.lock = 0;
     for (int i=ini; i<end; i++){
         pthread_mutex_lock(&mutexSoma);
         soma += parametro.vetor[i];
         pthread_mutex_unlock(&mutexSoma);
     }
-    printf("Thread %d~%d: soma = %d\n\n", parametro.ini, parametro.end, soma);
+    printf("Thread %d~%d: soma = %d\n\n", ini, end, soma);
     pthread_exit(NULL);
 }
 
@@ -38,6 +37,7 @@ int main (int argc, char *argv[]){
     nThreads = atoi(argv[2]);
     n = atoi(argv[1]);
     int i, erro;
+    parametro.lock = 0;
     pthread_t vetorThread[nThreads];
     pthread_mutex_init(&mutexSoma, NULL);
     pthread_mutex_init(&mutexI, NULL);
@@ -55,19 +55,22 @@ int main (int argc, char *argv[]){
     nXThreads = (int)n/nThreads;
 
     for(i=0; i<nThreads; i++){
-        pthread_mutex_lock(&mutexI);
-        parametro.ini = i * nXThreads;
-        if (i+1 != nThreads){
-            parametro.end = parametro.ini + nXThreads;
-        } else {
-            parametro.end = parametro.ini + nXThreads + (n - (nThreads * nXThreads));
-        }
-        pthread_mutex_unlock(&mutexI);
-        erro = pthread_create(&vetorThread[i], NULL, (void *)somaValor, NULL);
+        if (parametro.lock == 0){
+            parametro.ini = i * nXThreads;
+            if (i+1 != nThreads){
+                parametro.end = parametro.ini + nXThreads;
+            } else {
+                parametro.end = parametro.ini + nXThreads + (n - (nThreads * nXThreads));
+            }
+            parametro.lock = 1;
+            erro = pthread_create(&vetorThread[i], NULL, (void *)somaValor, NULL);
             if (erro){
                 printf("ERRO; pthread_create() devolveu o erro %d\n", erro);
                 exit(-1);
             }
+        } else{
+            i--;
+        }
     }
     for (i=0; i<nThreads; i++){
         pthread_join(vetorThread[i], NULL);
