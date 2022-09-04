@@ -1,3 +1,9 @@
+/*Faça um programa que calcule a soma dos elementos de um vetor.
+Seu programa deverá receber dois parâmetros: o tamanho de um vetor (>=100) e um número de threads (>=2).
+O resultado do programa é o somatório dos elementos deste vetor.
+O programa deve criar um vetor do tamanho especificado, iniciá-lo com valores sintéticos (randomicos ou fixos, por exemplo, 1, 2, 3, ...) e reparti-lo entre as threads criadas, conforme o número de threads informado. Por exemplo, se o vetor tiver 100 posições, com 5 threads, então, cada thread irá somar 20 números do vetor.
+Orientação a ser seguida: o somatório deve ser realizado em uma variável compartilhada, sendo utilizado um mutex para coordenar o acesso a ela.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
