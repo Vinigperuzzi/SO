@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <unistd.h>
+#include <time.h>
 
 typedef struct infoThread{
     int ini;
@@ -26,13 +27,15 @@ void *somaValor(void * argumento){
         soma += parametro.vetor[i];
         pthread_mutex_unlock(&mutexSoma);
     }
-    printf("Thread %d~%d: soma = %d\n\n", ini, end, soma);
+    //printf("Thread %d~%d: soma = %d\n\n", ini, end, soma);
     pthread_exit(NULL);
 }
 
 
 int main (int argc, char *argv[]){
 
+    clock_t start, final;
+    start = clock();
     int nThreads, n, nXThreads;
     nThreads = atoi(argv[2]);
     n = atoi(argv[1]);
@@ -79,5 +82,7 @@ int main (int argc, char *argv[]){
     pthread_mutex_destroy(&mutexSoma);
 
     printf("O resultado é: %d.\n", soma);
+    final = clock();
+    printf("Tempo de execução: %f\n\n", (double)(final - start)/CLOCKS_PER_SEC);
     return 0;
 }

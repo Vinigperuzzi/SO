@@ -32,6 +32,8 @@ void *somaValor(void * param){
 
 int main (int argc, char *argv[]){
 
+    clock_t start, final;
+    start = clock();
     int nThreads, n, nXThreads;
     n = atoi(argv[1]);
     nThreads = atoi(argv[2]);
@@ -81,5 +83,7 @@ int main (int argc, char *argv[]){
     pthread_mutex_destroy(&mutex);
 
     printf("O resultado é: %d.\n", soma);
+    final = clock();
+    printf("Tempo de execução: %f\n\n", (double)(final - start)/CLOCKS_PER_SEC);
     return 0;
 }
