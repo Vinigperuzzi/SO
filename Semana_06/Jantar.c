@@ -56,7 +56,7 @@ int main(void){
     for(i=0; i<NFILO; i++){
         sem_init(&hashi[i], 0, 1);
     }
-    sem_init(&pegar, 0, 4);
+    sem_init(&pegar, 0, NFILO-1);
 
     for(i=0;i<NFILO;i++){
 		indice[i]=i;
