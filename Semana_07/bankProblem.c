@@ -8,24 +8,29 @@
 int **aloca(int **endereco, int n, int m);
 void freeAloca(int **endereco, int n);
 int* alocaVet(int *endereco, int m);
+void interfaceHM(int **recNecessarios, int **recAlocados, int *existentesVet, int *disponiveisVet, int *alocadosVet, int processos, int recursos);
+int bankProblem(int **recNecessarios, int **recAlocados, int *disponiveisVet, int processos, int recursos, int *pronto, int *ordem, int*alocadosVet, int *existentesVet);
+
 
 int main (void) {
 
     srand(time(NULL));
-    int processos, recursos, i, j, k=0, valor, valorPerc;
+    int processos, recursos, i, j, valor, valorPerc;
     printf("Por favor, informe a quantidade de processos e recursos, um de cada vez:\n");
     scanf("%d", &processos);
     scanf("%d", &recursos);
     getchar();
 
 //-------------------------Criação e alocação dos vetores e matrizes------------------------------
-    int  **recNecessarios, **recAlocados, *existentesVet, *disponiveisVet, *alocadosVet;
+    int  **recNecessarios, **recAlocados, *existentesVet, *disponiveisVet, *alocadosVet, *ordem, *pronto;
 
     recNecessarios = aloca(recNecessarios, processos, recursos);
     recAlocados = aloca(recAlocados, processos, recursos);
     existentesVet = alocaVet(existentesVet, recursos);
     disponiveisVet = alocaVet(disponiveisVet, recursos);
     alocadosVet = alocaVet(alocadosVet, recursos);    
+    ordem = alocaVet(ordem, processos);
+    pronto = alocaVet(pronto, processos);
 
 //------------------------Atribuição e inicialização de valores-----------------------------------------------------------
     for (j=0; j<recursos; j++){
@@ -39,12 +44,25 @@ int main (void) {
         for (j=0; j<recursos; j++){
             valor = rand()%existentesVet[j];
             recNecessarios[i][j] = valor;
+            recAlocados[i][j] = 0;
+        }
+    }
+
+    interfaceHM(recNecessarios, recAlocados, existentesVet, disponiveisVet,
+    alocadosVet, processos, recursos);
+
+    printf("\n\nPressione enter para gerar as alocações randômicas!\n\n");
+    getchar();
+
+    for (i=0; i<processos; i++){
+        for (j=0; j<recursos; j++){
             valor = rand()%disponiveisVet[j];
             valorPerc = valor * percentage;
             recAlocados[i][j] = valorPerc;
             disponiveisVet[j] -= valorPerc;
             alocadosVet[j] += valorPerc;
         }
+        pronto[i] = 0;
     }
 
     interfaceHM(recNecessarios, recAlocados, existentesVet, disponiveisVet,
@@ -55,7 +73,24 @@ int main (void) {
 
 
 //--------------------------Lógica de seleção-------------------------------------------------------------------------------
-    
+    int modo = bankProblem(recNecessarios, recAlocados, disponiveisVet, processos, recursos, pronto, ordem, alocadosVet, existentesVet);
+
+//-------------------------------Impressão final-------------------------------------------------------
+    if (modo == 1){
+        printf("\n\nO estado não é seguro!\n\n");
+    } else {
+        printf("\n\nO estado é seguro na seguinte sequência de processos:\n");
+        for (i=0; i<processos; i++){
+            printf("%d ", ordem[i]);
+            if ((i+1) != processos){
+                printf(" ---> ");
+            } else {
+                printf(".");
+            }
+        }
+    }
+
+    printf("\n\n\t\t\tFim da execução\n\n");
 
 //--------------------Free nas alocações todas--------------------------------------------------------------------------
     freeAloca(recNecessarios, processos);
@@ -63,6 +98,8 @@ int main (void) {
     free(existentesVet);
     free(disponiveisVet);
     free(alocadosVet);
+    free(ordem);
+    free(pronto);
 }
 
 int** aloca(int **endereco, int n, int m){
@@ -128,6 +165,47 @@ alocadosVet, processos, recursos);*/
 
     printf("\n\n\n");
 }
+
+int bankProblem(int **recNecessarios, int **recAlocados, int *disponiveisVet, int processos, int recursos, int *pronto, int *ordem, int*alocadosVet, int *existentesVet){
+    int fim=0, escolha, fimInseguro=0, modo, i, j, k=0;
+    while (fim < processos){
+        modo = 0;
+        for(i=0; i<processos; i++){
+            fimInseguro++;
+            escolha = 0;
+            for(j=0; j<recursos; j++){
+                if (pronto[i] == 0 && (recNecessarios[i][j] - recAlocados[i][j]) <= disponiveisVet[j]){
+                    escolha++;
+                }
+            }
+            if (escolha == recursos){
+                ordem[k++] = i;
+                for (j=0; j<recursos; j++){
+                    recNecessarios[i][j] = 0;
+                    disponiveisVet[j] += recAlocados[i][j];
+                    alocadosVet[j] -= recAlocados[i][j];
+                    recAlocados[i][j] = 0;
+                }
+                fim++;
+                fimInseguro--;
+                pronto[i] = 1;
+            }
+            if(fimInseguro == processos && fim < processos){
+                fim = processos;
+                modo = 1;
+            }
+            interfaceHM(recNecessarios, recAlocados, existentesVet, disponiveisVet,
+            alocadosVet, processos, recursos);
+            
+            printf("\n\nTestanto o %dº processo.\n\nPressione enter para prosseguir!\n\n", i+1);
+            getchar();
+        }
+        i = -1;
+        fimInseguro = 0;
+    }
+    return modo;
+}
+
 
 //Considerações
 /*Apesar de no enunciado da questão dizer que o máximo de recursos pode varias em uma faixa de 0 a 9,
