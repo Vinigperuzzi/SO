@@ -5,6 +5,11 @@
 #define percentage 0.5//índice do valor máximo em relação ao recurso admissível no inicial.
 #define limite 9//Valor de recursos a ser gerado.
 
+typedef struct processos{
+    int *procRecNec;
+    int *procRecAloc;
+} processo;
+
 int **aloca(int **endereco, int n, int m);
 void freeAloca(int **endereco, int n);
 int* alocaVet(int *endereco, int m);
@@ -21,6 +26,7 @@ int main (void) {
     scanf("%d", &recursos);
     getchar();
 
+//-------------------------Criação e alocação dos vetores e matrizes------------------------------
     int  **recNecessarios, **recAlocados, *existentesVet, *disponiveisVet, *alocadosVet, *ordem, *pronto;
 
     recNecessarios = aloca(recNecessarios, processos, recursos);
@@ -31,6 +37,7 @@ int main (void) {
     ordem = alocaVet(ordem, processos);
     pronto = alocaVet(pronto, processos);
 
+//------------------------Atribuição e inicialização de valores-----------------------------------------------------------
     for (j=0; j<recursos; j++){
         valor = (rand()%limite) + 1;
         existentesVet[j] = valor;
@@ -70,8 +77,10 @@ int main (void) {
     getchar();
 
 
+//--------------------------Lógica de seleção-------------------------------------------------------------------------------
     int modo = bankProblem(recNecessarios, recAlocados, disponiveisVet, processos, recursos, pronto, ordem, alocadosVet, existentesVet);
 
+//-------------------------------Impressão final-------------------------------------------------------
     if (modo == 1){
         printf("\n\nO estado não é seguro!\n\n");
     } else {
@@ -88,6 +97,7 @@ int main (void) {
 
     printf("\n\n\t\t\tFim da execução\n\n");
 
+//--------------------Free nas alocações todas--------------------------------------------------------------------------
     freeAloca(recNecessarios, processos);
     freeAloca(recAlocados, processos);
     free(existentesVet);
@@ -96,6 +106,8 @@ int main (void) {
     free(ordem);
     free(pronto);
 }
+
+//---------------------Outras funções---------------------------------------------------------------------------------------
 
 int** aloca(int **endereco, int n, int m){
     int i;
@@ -122,6 +134,9 @@ int* alocaVet(int *endereco, int m){
 void interfaceHM(int **recNecessarios, int **recAlocados,
 int *existentesVet, int *disponiveisVet, int *alocadosVet,
 int processos, int recursos){
+
+/*interfaceHM(recNecessarios, recAlocados, existentesVet, disponiveisVet,
+alocadosVet, processos, recursos);*/
 
     int i, j;
     system ("cls || clear");
