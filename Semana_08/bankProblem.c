@@ -1,14 +1,23 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+#include<pthread.h>
+#include<semaphore.h>
+#include<unistd.h>
 
 #define percentage 0.5//índice do valor máximo em relação ao recurso admissível no inicial.
 #define limite 9//Valor de recursos a ser gerado.
 
-typedef struct processos{
+typedef struct strprocessos{
+    int indice;
     int *procRecNec;
     int *procRecAloc;
-} processo;
+} strProcesso;
+
+sem_t ciclo;
+sem_t espera;
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+int esperando = 0;
 
 int **aloca(int **endereco, int n, int m);
 void freeAloca(int **endereco, int n);
@@ -16,15 +25,59 @@ int* alocaVet(int *endereco, int m);
 void interfaceHM(int **recNecessarios, int **recAlocados, int *existentesVet, int *disponiveisVet, int *alocadosVet, int processos, int recursos);
 int bankProblem(int **recNecessarios, int **recAlocados, int *disponiveisVet, int processos, int recursos, int *pronto, int *ordem, int*alocadosVet, int *existentesVet);
 
+int *dispGlobais;
+
+
+void *processa(strProcesso *parametro){
+    strProcesso local = *(strProcesso*)parametro;
+    int i; 
+    int n = sizeof(local.procRecAloc)/sizeof(int);
+
+    for(i=0; i<n; i++){
+        dispGlobais[i] -= (local.procRecNec[i] - local.procRecAloc[i]);
+    }
+    pthread_mutex_unlock(&mutex);
+    int tempo = rand()%10;
+    tempo += 5;
+    printf("\nExecutando o %dº processo por %d segundos!\n", local.indice, tempo);
+    sleep(tempo);
+
+    pthread_mutex_lock(&mutex);
+    for(i=0; i<n; i++){
+        dispGlobais[i] += local.procRecNec[i];
+    }
+    pthread_mutex_unlock(&mutex);
+    
+    sem_wait(&espera);
+    if (esperando == 1){
+        sem_post(&ciclo);
+    }
+    sem_post(&espera);
+
+    printf("\nFim do processo %d\n", local.indice);
+
+    pthread_exit(NULL);
+}
+
 
 int main (void) {
 
     srand(time(NULL));
+    sem_init(&ciclo, 0, 0);
+    sem_init(&espera, 0, 1);
+    pthread_mutex_init(&mutex,NULL);
     int processos, recursos, i, j, valor, valorPerc;
     printf("Por favor, informe a quantidade de processos e recursos, um de cada vez:\n");
     scanf("%d", &processos);
     scanf("%d", &recursos);
     getchar();
+
+//-------------------------Cria o vetor de processos globais---------------------------------------------
+    strProcesso procGlobais[processos];
+    for (i=0; i<processos; i++){
+        procGlobais[i].procRecNec = alocaVet(procGlobais[i].procRecNec, recursos);
+        procGlobais[i].procRecAloc = alocaVet(procGlobais[i].procRecAloc, recursos);
+    }
 
 //-------------------------Criação e alocação dos vetores e matrizes------------------------------
     int  **recNecessarios, **recAlocados, *existentesVet, *disponiveisVet, *alocadosVet, *ordem, *pronto;
@@ -36,12 +89,14 @@ int main (void) {
     alocadosVet = alocaVet(alocadosVet, recursos);    
     ordem = alocaVet(ordem, processos);
     pronto = alocaVet(pronto, processos);
+    dispGlobais = alocaVet(dispGlobais, recursos);
 
 //------------------------Atribuição e inicialização de valores-----------------------------------------------------------
     for (j=0; j<recursos; j++){
         valor = (rand()%limite) + 1;
         existentesVet[j] = valor;
         disponiveisVet[j] = valor;
+        dispGlobais[j] = valor;
         alocadosVet[j] = 0;
     }
 
@@ -50,6 +105,7 @@ int main (void) {
             valor = rand()%existentesVet[j];
             recNecessarios[i][j] = valor;
             recAlocados[i][j] = 0;
+            procGlobais[i].procRecNec[j] = valor;
         }
     }
 
@@ -66,6 +122,7 @@ int main (void) {
             recAlocados[i][j] = valorPerc;
             disponiveisVet[j] -= valorPerc;
             alocadosVet[j] += valorPerc;
+            procGlobais[i].procRecAloc[j] = valorPerc;
         }
         pronto[i] = 0;
     }
@@ -75,7 +132,6 @@ int main (void) {
 
     printf("\n\nPressione enter para prosseguir!\n\n");
     getchar();
-
 
 //--------------------------Lógica de seleção-------------------------------------------------------------------------------
     int modo = bankProblem(recNecessarios, recAlocados, disponiveisVet, processos, recursos, pronto, ordem, alocadosVet, existentesVet);
@@ -95,7 +151,49 @@ int main (void) {
         }
     }
 
-    printf("\n\n\t\t\tFim da execução\n\n");
+    printf("\n\n\t\t\tFim da análise\n\n");
+    if (modo != 1)
+        printf("\n\n\t\t\tPressione enter para ir para a etapa de simulações");
+    getchar();
+
+//-----------------------------Início da lógica das threads------------------------------------------------------------
+    pthread_t threadProc[processos];
+    if (modo != 1){ 
+        int permitido, erro;
+        for(i=0; i<processos; i++){
+            sem_wait(&espera);
+            permitido = 0;
+            pthread_mutex_lock(&mutex);
+            for(j=0; j<recursos; j++){
+                if(procGlobais[ordem[i]].procRecNec[j] - procGlobais[ordem[i]].procRecAloc[j] <= dispGlobais[j]){
+                    permitido++;
+                }
+            }
+            pthread_mutex_unlock(&mutex);
+            if(permitido == recursos){
+                pthread_mutex_lock(&mutex);
+                esperando = 0;
+                sem_post(&espera);
+                procGlobais[i].indice = ordem[i];
+                erro = pthread_create(&threadProc[i], NULL, (void *)processa, (void *)&procGlobais[i]);
+                if (erro){
+                    printf("ERRO; pthread_create() devolveu o erro %d\n", erro);
+                    exit(-1);
+                }
+            } else{
+                esperando = 1;
+                sem_post(&espera);
+                i--;
+                sem_wait(&ciclo);
+                sem_wait(&ciclo);
+            }
+        }
+        for (i=0; i<processos; i++){
+            pthread_join(threadProc[i], NULL);
+        }
+    }
+
+    printf("\n\n\n\t\t\tFim da execução.\n\n");
 
 //--------------------Free nas alocações todas--------------------------------------------------------------------------
     freeAloca(recNecessarios, processos);
@@ -105,6 +203,14 @@ int main (void) {
     free(alocadosVet);
     free(ordem);
     free(pronto);
+    free(dispGlobais);
+    for (i=0; i<processos; i++){
+        free(procGlobais[i].procRecAloc);
+        free(procGlobais[i].procRecNec);
+    }
+    pthread_mutex_destroy(&mutex);
+    sem_destroy(&ciclo);
+    sem_destroy(&espera);
 }
 
 //---------------------Outras funções---------------------------------------------------------------------------------------
@@ -204,7 +310,7 @@ int bankProblem(int **recNecessarios, int **recAlocados, int *disponiveisVet, in
             interfaceHM(recNecessarios, recAlocados, existentesVet, disponiveisVet,
             alocadosVet, processos, recursos);
             
-            printf("\n\nTestanto o %dº processo.\n\nPressione enter para prosseguir!\n\n", i+1);
+            printf("\n\nTestando o %dº processo.\n\nPressione enter para prosseguir!\n\n", i+1);
             getchar();
         }
         i = -1;
