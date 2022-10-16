@@ -5,7 +5,7 @@
 #include<semaphore.h>
 #include<unistd.h>
 
-#define percentage 0.5//índice do valor máximo em relação ao recurso admissível no inicial.
+#define percentage 0.3//índice do valor máximo em relação ao recurso admissível no inicial.
 #define limite 9//Valor de recursos a ser gerado.
 
 typedef struct strprocessos{
