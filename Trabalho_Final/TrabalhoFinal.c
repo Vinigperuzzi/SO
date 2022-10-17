@@ -8,15 +8,16 @@
 
 typedef struct financista{
     int id;
-    int especie;
+    float especie;
     float subsidio;
-    int taxas;
-    int total;
+    float taxas;
+    float total;
     int atendido;
     int step;
 } finan;
 
-int bancoEspecie, bancoSubsidio, bancoTaxas, qtd, deadlock = 0, fimDeadlock = 0, ordemCount, exec=0, step=-1;
+float bancoEspecie, bancoSubsidio, bancoTaxas;
+int qtd, deadlock = 0, fimDeadlock = 0, ordemCount, exec=0, step=-1;
 int *ordem;
 
 pthread_mutex_t mutexBanker = PTHREAD_MUTEX_INITIALIZER;
@@ -50,27 +51,30 @@ int main (void) {
     ordemCount = 0;
 
 //------------------------------------Início das instâciações e definições de valores--------------------------------
-    int valor;
-    valor = 500001 + rand()%500000;
+    float valor;
+    valor = (int)(500001 + rand()%500000);
     bancoEspecie = valor;
-    valor = 100001 + rand()%100000;
+    valor = (int)(100001 + rand()%100000);
     bancoSubsidio = valor;
-    valor = 30001 + rand()%30000;
+    valor = (int)(30001 + rand()%30000);
     bancoTaxas = valor;
+    bancoSubsidio /= 4;
+    printf("\nSituação do banco: Espécie: %.2f, taxas: %.2f, subsídio: %.2f\n", bancoEspecie, bancoTaxas, bancoSubsidio);
 
     finan pessoas[qtd];
 
     for (int i = 0; i < qtd; i++){
         pessoas[i].id = i;
         pessoas[i].atendido = 0;
-        pessoas[i].total = rand()%bancoEspecie;
-        int percentMin = 0.4*pessoas[i].total, percentMax = 0.3*pessoas[i].total;
-        pessoas[i].especie = percentMin + rand()%percentMax;
-        int taxa = 0.05 * pessoas[i].total;
+        pessoas[i].total = (int)(rand()%(int)bancoEspecie);
+        float percentMin = 0.4*pessoas[i].total, percentMax = 0.3*pessoas[i].total;
+        pessoas[i].especie = percentMin + rand()%(int)percentMax;
+        float taxa = 0.05 * pessoas[i].total;
         taxa /= 2;
-        pessoas[i].taxas = taxa + rand()%taxa;
+        pessoas[i].taxas = taxa + rand()%(int)taxa;
         int sub = 1 + rand()%3;
-        pessoas[i].subsidio = ((2.5 * pow(sub, 2)) - (2.5 * sub) + 5)/100; //Essa foi muito forte. Eu admito!!!
+        float percentSubsidio = ((2.5 * pow(sub, 2)) - (2.5 * sub) + 5)/100; //Essa foi muito forte. Eu admito!!!
+        pessoas[i].subsidio = pessoas[i].total * percentSubsidio;
         pessoas[i].step = -1;
     }
 
@@ -79,7 +83,7 @@ int main (void) {
     pthread_t incrementa;
 
 //---------------------------------------Chamada e espera das threads-------------------------------------------------
-
+    
     for (int i= 0; i < qtd; i++){
         int erro = pthread_create(&financiamentos[i], NULL, (void *)pedidoCredito, (void *)&pessoas[i]);
                 if (erro){
@@ -116,34 +120,52 @@ int main (void) {
     pthread_barrier_destroy(&sincroniza);
 
     printf("\n\n\n\n\t\tFim da execução\n\n\t\tApresentação dos resultados:\n\n");
+    printf("\n\t\tSituação do banco: Espécie: %.2f, taxas: %.2f, subsídio: %.2f\n", bancoEspecie, bancoTaxas, bancoSubsidio);
+
+    /*arq   printf("\n\n\n\n\t\tFim da execução\n\n\t\tApresentação dos resultados:\n\n");
+            printf("\n\t\tSituação do banco: Espécie: %.2f, taxas: %.2f, subsídio: %.2f\n", bancoEspecie, bancoTaxas, bancoSubsidio);
+    */
 
     if (ordemCount == 0){
         printf("\nO estado é inseguro, e nenhuma thread conseguiu acesso aos recursos!\n");
+        //arq   printf("\nO estado é inseguro, e nenhuma thread conseguiu acesso aos recursos!\n");
     } else if (ordemCount < qtd){
         printf("\nO estado é inseguro, porém algumas threads conseguiram acesso aos recursos\n");
+        //arq   printf("\nO estado é inseguro, porém algumas threads conseguiram acesso aos recursos\n");
     }
     if (ordemCount != 0){
-        printf("\n\t\tOrdem segura de empréstimo dos recursos:\n");
+        printf("\n\t\tOrdem segura de empréstimo dos recursos: Thread(momento)\n");
+        //arq   printf("\n\t\tOrdem segura de empréstimo dos recursos: Thread(momento)\n");
         for (int i = 0; i<exec; i++){
             printf("%d(%d) ", ordem[i], pessoas[ordem[i]].step);
+            //arq   printf("%d(%d) ", ordem[i], pessoas[ordem[i]].step);
             if (i + 1 != exec){
                 printf("---> ");
+                //arq   printf("---> ");
             }
         }
         printf("\n\n");
         printf("As seguintes threads executaram em conjunto:\n");
+        //arq   printf("As seguintes threads executaram em conjunto:\n");
         for (int i=0; i<=pessoas[ordem[ordemCount-1]].step; i++){
             printf("Momento #%d: Threads: ", i);
+            //arq   printf("Momento #%d: Threads: ", i);
             for (int j = 0; j<step; j++){
                 if (pessoas[j].step == i){
                     printf("%d ", j);
+                    //arq   printf("%d ", j);
                 }
             }
             printf("\n");
+            //arq   printf("\n");
         }
         printf("\n\n");
+        //arq   printf("\n\n");
     }
     printf("\n\nEssa foi a presentação parcial dos resultados, para uma apresentação mais detalhada, procure pelo arquivo log.txt no diretório de execução do programa.\n\n\n");
+    //arq   printf("\n\n\n\t\t\tFim do arquivo\n\n\n");
+
+    free(ordem);
     return 0;
 }
 
@@ -153,6 +175,7 @@ int main (void) {
 void *pedidoCredito(finan *pessoa){
     int modo;
     finan local = *(finan *)pessoa;
+    float empresEspecie = local.total - local.especie - local.subsidio, empresTaxas = (local.total * 0.05) - local.taxas, empresSub = local.subsidio, entrada = local.especie;
 
     for(;;){
         pthread_barrier_wait(&sincroniza);
@@ -161,36 +184,41 @@ void *pedidoCredito(finan *pessoa){
             if (local.atendido == 0){
                 pthread_mutex_lock(&mutexBanker);
                 modo = banker(&local);
-                pthread_mutex_unlock(&mutexBanker);
                 deadlock = 0;
 
                 if(modo == 1){
+                    //arq   printf("\nPessoa #%d pegou emprestado: %.2f em espécie, %.2f em taxas e %.2f de subsídio. Para pagar por um imóvel de %.2f, cuja entrada dada foi de %.2f.\n", local.id, (empresEspecie), (empresTaxas), (empresSub), local.total, entrada);
+                    //arq   printf("\nnova situação do banco: Espécie: %.2f, taxas: %.2f, subsídio: %.2f\n", bancoEspecie, bancoTaxas, bancoSubsidio);
+                    pthread_mutex_unlock(&mutexBanker);
                     local.atendido = 1;
                     local.step = step;
                     pthread_mutex_lock(&mutexOrdem);
                     ordem[ordemCount] = local.id;
                     ordemCount++;
                     pthread_mutex_unlock(&mutexOrdem);
-                    printf("\nPessoa #%d juntando o dinheiro para poder devolver.\n", local.id);
+                    printf("\nPessoa #%d conseguiu financiamento e está juntando o dinheiro para poder devolver.\n", local.id);
+                    //arq   printf("\nPessoa #%d conseguiu financiamento e está juntando o dinheiro para poder devolver.\n", local.id);
                     sleep(5 + rand()%5);
                     pthread_mutex_lock(&mutexBanker);
                     bancoEspecie += local.especie;
-                    bancoSubsidio += (local.subsidio * local.total);
+                    bancoSubsidio += local.subsidio;
                     bancoTaxas += local.taxas;
-                    pthread_mutex_unlock(&mutexBanker);
                     printf("\n#%d: Dinheiro devolvido.\n", local.id);
-                    //printf("\nSituação do banco: Espécie:%d, taxas: %d, subsídio: %.2f\n", bancoEspecie, bancoTaxas, bancoSubsidio);
+                    //arq   printf("\n#%d: Dinheiro devolvido.\n", local.id);
+                    //arq   printf("\nnova situação do banco: Espécie: %.2f, taxas: %.2f, subsídio: %.2f\n", bancoEspecie, bancoTaxas, bancoSubsidio);
+                    pthread_mutex_unlock(&mutexBanker);
                     exec++;
                 } else {
-                    printf("#%d Preso no else mais interno.\n", local.id);
+                    pthread_mutex_unlock(&mutexBanker);
+                    //arq   printf("\n#%d: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa", local.id);
                 }
             deadlock = 0;
             } else {
-                printf("#%d Preso no segundo else interno.\n", local.id);
+                //arq   printf("\n#%d: Foi ser testada, porém já executou. Esta esperando as outras terminar para uma nova rodada de testes", local.id);
                 deadlock = 0;
             }
         } else{
-            printf("#%d Preso no else mais externo.\n", local.id);
+            //arq   printf("\n#%d: Já terminou a execução e espera para se juntar às outras na main", local.id);
             deadlock = 0;
             *(finan *)pessoa = local;
             pthread_exit(NULL);
@@ -205,7 +233,7 @@ void *testaDeadlock(void){
         if (fimDeadlock == 0){
             if (deadlock == 0){
                 deadlock = 1;
-                sleep(15);
+                sleep(12);
             } else{
                 printf("\n\n\t\tInfelizmente foi detectado um deadlock e o programa teve que ser abortado.\n\n");
                 exit(-1);
@@ -236,19 +264,17 @@ void *incrementaStep(void){
 int banker(finan *pessoa){
     int modo = 0;//1 pode ser atendido/0 não pode ser atendido
     finan local = *(finan *)pessoa;
-    int imovelTotal = local.total;
-    int subsidio = imovelTotal * local.subsidio;
-    int taxas = imovelTotal * 0.05;
+    float taxas = local.total * 0.05;
     
-    if (imovelTotal - local.especie - subsidio <= bancoEspecie  //Total a emprestar (tirando o que a pessoa tem e o subsídio)
-    && subsidio <= bancoSubsidio && taxas - local.taxas <= bancoTaxas){
+    if (local.total - local.especie - local.subsidio <= bancoEspecie  //Total a emprestar (tirando o que a pessoa tem e o subsídio)
+    && local.subsidio <= bancoSubsidio && taxas - local.taxas <= bancoTaxas){
 
         modo = 1;
-        bancoSubsidio -= subsidio;
-        int valorEmprestado = imovelTotal - local.especie - subsidio;
+        bancoSubsidio -= local.subsidio;
+        float valorEmprestado = local.total - local.especie - local.subsidio;
         bancoEspecie -= valorEmprestado;
         local.especie += valorEmprestado;
-        int taxasEmprestado = taxas - local.taxas;
+        float taxasEmprestado = taxas - local.taxas;
         bancoTaxas -= taxasEmprestado;
         local.taxas += taxasEmprestado;
     } else {
