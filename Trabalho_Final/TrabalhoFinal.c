@@ -25,7 +25,7 @@ typedef struct financista{
 } finan;
 
 float bancoEspecie, bancoSubsidio, bancoTaxas, bancoSubsidioOriginal;
-int qtd, deadlock = 0, fimDeadlock = 0, ordemCount, exec=0, execSub=0; step=-1;
+int qtd, deadlock = 0, fimDeadlock = 0, ordemCount, exec=0, execSub=0, step=-1;
 int *ordem;
 
 pthread_mutex_t mutexBanker = PTHREAD_MUTEX_INITIALIZER;

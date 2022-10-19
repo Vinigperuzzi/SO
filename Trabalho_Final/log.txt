@@ -2,1925 +2,553 @@
 
 			Início do log
 
-o banco: Espécie: 946771.00, taxas: 44903.00, subsídio: 32532.17
+o banco: Espécie: 869409.00, taxas: 56418.00, subsídio: 190619.00
 
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #4 pegou emprestado: 134863.50 em espécie, 1954.23 em taxas e 39272.90 de subsídio. Para pagar por um imóvel de 392729.00, cuja entrada dada foi de 218592.59.
 
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 734545.50, taxas: 54463.77, subsídio: 151346.09==========
 
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #15 pegou emprestado: 228462.45 em espécie, 2929.97 em taxas e 38987.95 de subsídio. Para pagar por um imóvel de 779759.00, cuja entrada dada foi de 512308.59.
 
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 506083.06, taxas: 51533.80, subsídio: 112358.14==========
 
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #26 pegou emprestado: 349664.72 em espécie, 1146.85 em taxas e 36363.70 de subsídio. Para pagar por um imóvel de 727274.00, cuja entrada dada foi de 341245.59.
 
-Pessoa #18 pegou emprestado: 39030.00 em espécie, 902.15 em taxas e 9064.60 de subsídio. Para pagar por um imóvel de 90646.00, cuja entrada dada foi de 42551.40.
+==========nova situação do banco: Espécie: 156418.34, taxas: 50386.95, subsídio: 75994.44==========
 
-==========nova situação do banco: Espécie: 907741.00, taxas: 44000.85, subsídio: 23467.57==========
+Pessoa #5 pegou emprestado: 56989.30 em espécie, 2962.65 em taxas e 9017.30 de subsídio. Para pagar por um imóvel de 180346.00, cuja entrada dada foi de 114339.40.
 
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 99429.05, taxas: 47424.30, subsídio: 66977.14==========
 
-Pessoa #24 pegou emprestado: 86239.20 em espécie, 2913.10 em taxas e 8452.20 de subsídio. Para pagar por um imóvel de 169044.00, cuja entrada dada foi de 74352.60.
-
-==========nova situação do banco: Espécie: 821501.81, taxas: 41087.75, subsídio: 15015.37==========
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #18 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #8 pegou emprestado: 93624.05 em espécie, 3354.27 em taxas e 11752.55 de subsídio. Para pagar por um imóvel de 235051.00, cuja entrada dada foi de 129674.40.
-
-==========nova situação do banco: Espécie: 727877.75, taxas: 37733.48, subsídio: 3262.82==========
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #26 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
 #22: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#2: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #8 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
 #28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#11: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #24 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 951176.19, taxas: 49486.03, subsídio: 15015.37
-
-#18: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1032757.56, taxas: 54018.33, subsídio: 24079.97
-
-#24: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1193349.38, taxas: 62470.53, subsídio: 32532.17
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #22 pegou emprestado: 62935.50 em espécie, 4094.07 em taxas e 17924.30 de subsídio. Para pagar por um imóvel de 179243.00, cuja entrada dada foi de 98383.20.
-
-==========nova situação do banco: Espécie: 1130413.88, taxas: 58376.45, subsídio: 14607.87==========
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #2 pegou emprestado: 84832.05 em espécie, 2202.77 em taxas e 11205.55 de subsídio. Para pagar por um imóvel de 224111.00, cuja entrada dada foi de 128073.40.
-
-==========nova situação do banco: Espécie: 1045581.81, taxas: 56173.68, subsídio: 3402.32==========
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #5 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
 #20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #23 pegou emprestado: 15108.25 em espécie, 311.38 em taxas e 1810.75 de subsídio. Para pagar por um imóvel de 36215.00, cuja entrada dada foi de 19296.00.
 
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-Pessoa #22 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#23: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #2 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1206900.50, taxas: 65135.83, subsídio: 21326.62
-
-#2: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1419806.00, taxas: 76341.38, subsídio: 32532.17
-
-==========O banco atendeu mais do que 5 pessoas e recebeu um bônus de 50% na sua capacidade de subsídio por parte do governo
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #23 pegou emprestado: 209248.20 em espécie, 10255.10 em taxas e 29064.20 de subsídio. Para pagar por um imóvel de 581284.00, cuja entrada dada foi de 342971.59.
-
-==========nova situação do banco: Espécie: 1210557.75, taxas: 66086.27, subsídio: 3467.97==========
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 84320.80, taxas: 47112.93, subsídio: 65166.39==========
 
 #25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+Pessoa #3 pegou emprestado: 67776.80 em espécie, 1960.30 em taxas e 43594.40 de subsídio. Para pagar por um imóvel de 217972.00, cuja entrada dada foi de 106600.80.
 
 Pessoa #23 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 16544.00, taxas: 45152.63, subsídio: 21571.99==========
 
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1762777.50, taxas: 95150.47, subsídio: 32532.17
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#24: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
 #16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #11 pegou emprestado: 1902.60 em espécie, 20.97 em taxas e 1095.80 de subsídio. Para pagar por um imóvel de 5479.00, cuja entrada dada foi de 2480.60.
 
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 14641.40, taxas: 45131.65, subsídio: 20476.19==========
 
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #17 pegou emprestado: 5923.80 em espécie, 462.67 em taxas e 6085.40 de subsídio. Para pagar por um imóvel de 30427.00, cuja entrada dada foi de 18417.80.
 
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #11 pegou emprestado: 20163.50 em espécie, 2095.28 em taxas e 8453.10 de subsídio. Para pagar por um imóvel de 84531.00, cuja entrada dada foi de 55914.40.
-
-==========nova situação do banco: Espécie: 1742614.00, taxas: 93055.20, subsídio: 24079.07==========
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+==========nova situação do banco: Espécie: 8717.60, taxas: 44668.98, subsídio: 14390.79==========
 
 Pessoa #11 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#18: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#2: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+Pessoa #17 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+Pessoa #4 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+Pessoa #15 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+Pessoa #3 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
 #1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #8 pegou emprestado: 5303.25 em espécie, 33.38 em taxas e 602.75 de subsídio. Para pagar por um imóvel de 12055.00, cuja entrada dada foi de 6149.00.
 
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 3414.35, taxas: 44635.60, subsídio: 13788.04==========
+
+Pessoa #8 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#5: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 174743.06, taxas: 53652.90, subsídio: 22805.34
 
 #11: Dinheiro devolvido.
 
-nova situação do banco: Espécie: 1818691.88, taxas: 97281.74, subsídio: 32532.17
+nova situação do banco: Espécie: 179126.27, taxas: 53926.85, subsídio: 23901.14
 
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#26: Dinheiro devolvido.
 
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 870036.56, taxas: 90290.55, subsídio: 60264.84
 
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#17: Dinheiro devolvido.
 
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 894378.19, taxas: 91811.90, subsídio: 66350.23
 
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#23: Dinheiro devolvido.
 
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 928782.44, taxas: 93622.65, subsídio: 68160.98
 
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#4: Dinheiro devolvido.
 
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 1282238.50, taxas: 113259.09, subsídio: 107433.89
 
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#3: Dinheiro devolvido.
 
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 1456616.12, taxas: 124157.70, subsídio: 151028.30
 
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#15: Dinheiro devolvido.
 
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 2197387.25, taxas: 163145.64, subsídio: 190016.25
 
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#8: Dinheiro devolvido.
 
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 2208839.50, taxas: 163748.39, subsídio: 190619.00
 
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========O banco atendeu mais do que 5 pessoas e recebeu um bônus de 50% na sua capacidade de subsídio por parte do governo
 
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #28 pegou emprestado: 183600.50 em espécie, 7640.23 em taxas e 75176.90 de subsídio. Para pagar por um imóvel de 751769.00, cuja entrada dada foi de 492991.59.
 
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 2025239.00, taxas: 156108.17, subsídio: 420432.50==========
 
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #25 pegou emprestado: 127474.78 em espécie, 384.05 em taxas e 159336.41 de subsídio. Para pagar por um imóvel de 796682.00, cuja entrada dada foi de 509870.81.
 
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 1897764.25, taxas: 155724.12, subsídio: 261096.09==========
 
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #22 pegou emprestado: 259492.00 em espécie, 5693.50 em taxas e 43391.00 de subsídio. Para pagar por um imóvel de 867820.00, cuja entrada dada foi de 564937.00.
 
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 1638272.25, taxas: 150030.62, subsídio: 217705.09==========
 
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #6 pegou emprestado: 155826.59 em espécie, 215.98 em taxas e 92047.80 de subsídio. Para pagar por um imóvel de 460239.00, cuja entrada dada foi de 212364.59.
 
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+==========nova situação do banco: Espécie: 1482445.62, taxas: 149814.66, subsídio: 125657.29==========
 
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #9 pegou emprestado: 86010.50 em espécie, 3076.88 em taxas e 28163.50 de subsídio. Para pagar por um imóvel de 281635.00, cuja entrada dada foi de 167461.00.
 
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+==========nova situação do banco: Espécie: 1396435.12, taxas: 146737.78, subsídio: 97493.79==========
 
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #24 pegou emprestado: 125198.50 em espécie, 3699.32 em taxas e 28697.30 de subsídio. Para pagar por um imóvel de 286973.00, cuja entrada dada foi de 133077.20.
 
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+==========nova situação do banco: Espécie: 1271236.62, taxas: 143038.45, subsídio: 68796.48==========
 
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #25 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #18 pegou emprestado: 233056.52 em espécie, 4509.83 em taxas e 58111.30 de subsídio. Para pagar por um imóvel de 581113.00, cuja entrada dada foi de 289945.19.
 
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 1038180.12, taxas: 138528.62, subsídio: 10685.18==========
 
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #24 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#17: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #22 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#4: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 #23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #28 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #6 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
 #12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
 #13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
 #27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#3: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+#26: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+#15: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+Pessoa #9 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
 #14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
 #11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+Pessoa #18 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 #10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#5: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 #16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#2: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
 #21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
 #1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
 #7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#9: Dinheiro devolvido.
 
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 1291651.62, taxas: 152610.38, subsídio: 38848.68
 
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#25: Dinheiro devolvido.
 
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 1928997.25, taxas: 192444.47, subsídio: 198185.09
 
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#24: Dinheiro devolvido.
 
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 2187273.00, taxas: 206793.12, subsídio: 226882.39
 
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#18: Dinheiro devolvido.
 
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+nova situação do banco: Espécie: 2710274.75, taxas: 235848.78, subsídio: 284993.69
 
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#6: Dinheiro devolvido.
 
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+nova situação do banco: Espécie: 3078466.00, taxas: 258860.73, subsídio: 377041.50
 
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#22: Dinheiro devolvido.
 
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 3902895.00, taxas: 302251.75, subsídio: 420432.50
 
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#28: Dinheiro devolvido.
 
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 4579487.00, taxas: 339840.19, subsídio: 495609.41
 
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#17: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========O banco atendeu mais do que 5 pessoas e recebeu um bônus de 50% na sua capacidade de subsídio por parte do governo
 
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #1 pegou emprestado: 62737.61 em espécie, 173.85 em taxas e 58070.80 de subsídio. Para pagar por um imóvel de 290354.00, cuja entrada dada foi de 169545.59.
 
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+==========nova situação do banco: Espécie: 4516749.50, taxas: 339666.34, subsídio: 590033.81==========
 
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #19 pegou emprestado: 284376.00 em espécie, 1476.85 em taxas e 78195.40 de subsídio. Para pagar por um imóvel de 781954.00, cuja entrada dada foi de 419382.59.
 
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 4232373.50, taxas: 338189.50, subsídio: 511838.41==========
 
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #16 pegou emprestado: 311867.00 em espécie, 2254.50 em taxas e 42401.00 de subsídio. Para pagar por um imóvel de 848020.00, cuja entrada dada foi de 493752.00.
 
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 3920506.50, taxas: 335935.00, subsídio: 469437.41==========
 
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #12 pegou emprestado: 87785.01 em espécie, 6558.10 em taxas e 26656.40 de subsídio. Para pagar por um imóvel de 266564.00, cuja entrada dada foi de 152122.59.
 
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 3832721.50, taxas: 329376.91, subsídio: 442781.00==========
 
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #19 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #1 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #12 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #27 pegou emprestado: 194244.00 em espécie, 2983.50 em taxas e 146460.00 de subsídio. Para pagar por um imóvel de 732300.00, cuja entrada dada foi de 391596.00.
 
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 3638477.50, taxas: 326393.41, subsídio: 296321.00==========
 
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #10 pegou emprestado: 106654.50 em espécie, 8181.88 em taxas e 37411.50 de subsídio. Para pagar por um imóvel de 374115.00, cuja entrada dada foi de 230049.00.
 
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 3531823.00, taxas: 318211.53, subsídio: 258909.50==========
 
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #16 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #10 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #13 pegou emprestado: 121438.00 em espécie, 8660.38 em taxas e 111395.00 de subsídio. Para pagar por um imóvel de 556975.00, cuja entrada dada foi de 324142.00.
 
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 3410385.00, taxas: 309551.16, subsídio: 147514.50==========
 
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #27 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #7 pegou emprestado: 132965.81 em espécie, 320.80 em taxas e 66550.40 de subsídio. Para pagar por um imóvel de 332752.00, cuja entrada dada foi de 133235.80.
 
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 3277419.25, taxas: 309230.34, subsídio: 80964.10==========
 
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #13 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
 #21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #14 pegou emprestado: 295687.00 em espécie, 17009.25 em taxas e 80061.00 de subsídio. Para pagar por um imóvel de 800610.00, cuja entrada dada foi de 424862.00.
 
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 2981732.25, taxas: 292221.09, subsídio: 903.10==========
 
 #20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #7 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
 #29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #14 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#2: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
 #0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
 #8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#28: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#9: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 #24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#6: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 #23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#5: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#25: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#3: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#15: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#26: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#4: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#13: Dinheiro devolvido.
 
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 3427312.25, taxas: 320069.84, subsídio: 112298.10
 
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#16: Dinheiro devolvido.
 
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 4232931.00, taxas: 362470.84, subsídio: 154699.09
 
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#19: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 4936689.50, taxas: 401568.53, subsídio: 232894.50
+
+#12: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 5176597.00, taxas: 414896.72, subsídio: 259550.91
+
+#1: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 5408880.00, taxas: 429414.41, subsídio: 317621.72
+
+#27: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 5994720.00, taxas: 466029.41, subsídio: 464081.72
+
+#7: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 6260921.50, taxas: 482667.00, subsídio: 530632.12
+
+#10: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 6597625.00, taxas: 501372.75, subsídio: 568043.62
+
+#14: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 7318174.00, taxas: 541403.25, subsídio: 648104.62
+
+==========O banco atendeu mais do que 5 pessoas e recebeu um bônus de 50% na sua capacidade de subsídio por parte do governo
+
+Pessoa #2 pegou emprestado: 191231.98 em espécie, 11650.05 em taxas e 53748.20 de subsídio. Para pagar por um imóvel de 537482.00, cuja entrada dada foi de 292501.81.
+
+==========nova situação do banco: Espécie: 7126942.00, taxas: 529753.19, subsídio: 899346.81==========
+
+#14: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+#15: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+Pessoa #2 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+#9: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+#1: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+Pessoa #21 pegou emprestado: 281611.00 em espécie, 2118.75 em taxas e 144214.00 de subsídio. Para pagar por um imóvel de 721070.00, cuja entrada dada foi de 295245.00.
+
+==========nova situação do banco: Espécie: 6845331.00, taxas: 527634.44, subsídio: 755132.81==========
+
+Pessoa #21 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+Pessoa #20 pegou emprestado: 110094.95 em espécie, 7418.23 em taxas e 15916.45 de subsídio. Para pagar por um imóvel de 318329.00, cuja entrada dada foi de 192317.59.
+
+==========nova situação do banco: Espécie: 6735236.00, taxas: 520216.22, subsídio: 739216.38==========
+
+#7: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+#6: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+Pessoa #20 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+Pessoa #29 pegou emprestado: 111930.51 em espécie, 1610.73 em taxas e 26766.90 de subsídio. Para pagar por um imóvel de 267669.00, cuja entrada dada foi de 128971.60.
+
+==========nova situação do banco: Espécie: 6623305.50, taxas: 518605.50, subsídio: 712449.50==========
+
+#19: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+Pessoa #29 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+Pessoa #0 pegou emprestado: 273031.00 em espécie, 14150.45 em taxas e 72321.80 de subsídio. Para pagar por um imóvel de 723218.00, cuja entrada dada foi de 377865.19.
+
+==========nova situação do banco: Espécie: 6350274.50, taxas: 504455.06, subsídio: 640127.69==========
+
+#3: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+#4: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+#5: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+#25: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 #24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #0 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#13: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 #18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#16: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#20: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#17: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 #8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#10: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#27: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#12: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#26: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#28: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#29: Dinheiro devolvido.
 
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 6591176.50, taxas: 517838.50, subsídio: 666894.56
 
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#21: Dinheiro devolvido.
 
-#25: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 7168032.50, taxas: 553892.00, subsídio: 811108.56
 
-#6: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#2: Dinheiro devolvido.
 
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+nova situação do banco: Espécie: 7651766.50, taxas: 580766.12, subsídio: 864856.75
 
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#20: Dinheiro devolvido.
 
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 7954179.00, taxas: 596682.56, subsídio: 880773.19
 
-#7: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#0: Dinheiro devolvido.
 
-#26: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 8605075.00, taxas: 632843.44, subsídio: 953095.00
 
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#6: Já terminou a execução e espera para se juntar às outras na main.
 
-#27: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#14: Já terminou a execução e espera para se juntar às outras na main.
 
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#26: Já terminou a execução e espera para se juntar às outras na main.
 
-#24: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#4: Já terminou a execução e espera para se juntar às outras na main.
 
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#27: Já terminou a execução e espera para se juntar às outras na main.
 
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#15: Já terminou a execução e espera para se juntar às outras na main.
 
-#28: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#21: Já terminou a execução e espera para se juntar às outras na main.
 
-#29: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#25: Já terminou a execução e espera para se juntar às outras na main.
+
+#23: Já terminou a execução e espera para se juntar às outras na main.
+
+#5: Já terminou a execução e espera para se juntar às outras na main.
+
+#11: Já terminou a execução e espera para se juntar às outras na main.
+
+#12: Já terminou a execução e espera para se juntar às outras na main.
+
+#19: Já terminou a execução e espera para se juntar às outras na main.
+
+#17: Já terminou a execução e espera para se juntar às outras na main.
 
 #20: Já terminou a execução e espera para se juntar às outras na main.
 
 #10: Já terminou a execução e espera para se juntar às outras na main.
 
-#5: Já terminou a execução e espera para se juntar às outras na main.
-
-#19: Já terminou a execução e espera para se juntar às outras na main.
-
-#11: Já terminou a execução e espera para se juntar às outras na main.
-
-#8: Já terminou a execução e espera para se juntar às outras na main.
-
-#4: Já terminou a execução e espera para se juntar às outras na main.
-
-#3: Já terminou a execução e espera para se juntar às outras na main.
-
-#12: Já terminou a execução e espera para se juntar às outras na main.
-
-#22: Já terminou a execução e espera para se juntar às outras na main.
-
-#18: Já terminou a execução e espera para se juntar às outras na main.
-
-#0: Já terminou a execução e espera para se juntar às outras na main.
+#29: Já terminou a execução e espera para se juntar às outras na main.
 
 #16: Já terminou a execução e espera para se juntar às outras na main.
 
-#2: Já terminou a execução e espera para se juntar às outras na main.
-
-#25: Já terminou a execução e espera para se juntar às outras na main.
-
-#6: Já terminou a execução e espera para se juntar às outras na main.
-
-#23: Já terminou a execução e espera para se juntar às outras na main.
-
-#9: Já terminou a execução e espera para se juntar às outras na main.
-
-#15: Já terminou a execução e espera para se juntar às outras na main.
-
-#7: Já terminou a execução e espera para se juntar às outras na main.
-
-#26: Já terminou a execução e espera para se juntar às outras na main.
-
 #13: Já terminou a execução e espera para se juntar às outras na main.
 
-#27: Já terminou a execução e espera para se juntar às outras na main.
-
-#14: Já terminou a execução e espera para se juntar às outras na main.
-
-#24: Já terminou a execução e espera para se juntar às outras na main.
-
-#17: Já terminou a execução e espera para se juntar às outras na main.
-
-#1: Já terminou a execução e espera para se juntar às outras na main.
+#18: Já terminou a execução e espera para se juntar às outras na main.
 
 #28: Já terminou a execução e espera para se juntar às outras na main.
 
-#29: Já terminou a execução e espera para se juntar às outras na main.
+#22: Já terminou a execução e espera para se juntar às outras na main.
 
-#21: Já terminou a execução e espera para se juntar às outras na main.
+#9: Já terminou a execução e espera para se juntar às outras na main.
+
+#24: Já terminou a execução e espera para se juntar às outras na main.
+
+#2: Já terminou a execução e espera para se juntar às outras na main.
+
+#1: Já terminou a execução e espera para se juntar às outras na main.
+
+#3: Já terminou a execução e espera para se juntar às outras na main.
+
+#8: Já terminou a execução e espera para se juntar às outras na main.
+
+#7: Já terminou a execução e espera para se juntar às outras na main.
+
+#0: Já terminou a execução e espera para se juntar às outras na main.
 
 
 
@@ -1930,18 +558,16 @@ nova situação do banco: Espécie: 1818691.88, taxas: 97281.74, subsídio: 3253
 		Apresentação dos resultados:
 
 
-		Situação do banco: Espécie: 1818691.88, taxas: 97281.74, subsídio: 32532.17
-
-O estado é inseguro, porém algumas threads conseguiram acesso aos recursos
+		Situação do banco: Espécie: 8605075.00, taxas: 632843.44, subsídio: 953095.00
 
 		Ordem segura de empréstimo dos recursos: Thread(momento)
-18(0) ---> 24(0) ---> 8(0) ---> 22(1) ---> 2(1) ---> 23(2) ---> 11(3) 
+4(0) ---> 15(0) ---> 26(0) ---> 5(0) ---> 23(0) ---> 11(0) ---> 17(0) ---> 3(0) ---> 8(0) ---> 28(1) ---> 25(1) ---> 22(1) ---> 6(1) ---> 9(1) ---> 24(1) ---> 18(1) ---> 1(2) ---> 19(2) ---> 16(2) ---> 12(2) ---> 27(2) ---> 10(2) ---> 13(2) ---> 7(2) ---> 14(2) ---> 2(3) ---> 21(3) ---> 20(3) ---> 29(3) ---> 0(3) 
 
 As seguintes threads executaram em conjunto:
-Momento #0: Threads: 8 18 24 
-Momento #1: Threads: 2 22 
-Momento #2: Threads: 23 
-Momento #3: Threads: 11 
+Momento #0: Threads: 3 4 5 8 11 15 17 23 26 
+Momento #1: Threads: 6 9 18 22 24 25 28 
+Momento #2: Threads: 1 7 10 12 13 14 16 19 27 
+Momento #3: Threads: 0 2 20 21 29 
 
 
 
