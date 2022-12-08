@@ -3,513 +3,201 @@
 			Início do log
 
 
-Situação inicial do banco: Espécie: 871825.00, taxas: 57539.00, subsídio: 176773.00
+Situação inicial do banco: Espécie: 681513.00, taxas: 38319.00, subsídio: 193783.00
 
-Pessoa #6 pegou emprestado: 67201.00 em espécie, 726.60 em taxas e 15746.40 de subsídio. Para pagar por um imóvel de 157464.00, cuja entrada dada foi de 74516.60.
+Pessoa #5 pegou emprestado: 63509.71 em espécie, 5091.35 em taxas e 10308.70 de subsídio. Para pagar por um imóvel de 206174.00, cuja entrada dada foi de 132355.59.
 
-==========nova situação do banco: Espécie: 804624.00, taxas: 56812.40, subsídio: 161026.59==========
+==========nova situação do banco: Espécie: 618003.31, taxas: 33227.65, subsídio: 183474.30==========
 
-Pessoa #7 pegou emprestado: 1412.40 em espécie, 107.28 em taxas e 2042.20 de subsídio. Para pagar por um imóvel de 10211.00, cuja entrada dada foi de 6756.40.
+Pessoa #3 pegou emprestado: 19936.20 em espécie, 194.32 em taxas e 37282.60 de subsídio. Para pagar por um imóvel de 186413.00, cuja entrada dada foi de 129194.20.
 
-==========nova situação do banco: Espécie: 803211.62, taxas: 56705.12, subsídio: 158984.39==========
-
-Pessoa #5 pegou emprestado: 173957.70 em espécie, 2802.35 em taxas e 17352.70 de subsídio. Para pagar por um imóvel de 347054.00, cuja entrada dada foi de 155743.59.
-
-Pessoa #6 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-Pessoa #7 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-==========nova situação do banco: Espécie: 629253.94, taxas: 53902.77, subsídio: 141631.69==========
-
-#15: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #8 pegou emprestado: 261889.50 em espécie, 11072.98 em taxas e 78335.90 de subsídio. Para pagar por um imóvel de 783359.00, cuja entrada dada foi de 443133.59.
-
-==========nova situação do banco: Espécie: 367364.44, taxas: 42829.80, subsídio: 63295.79==========
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #8 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-Pessoa #19 pegou emprestado: 46869.40 em espécie, 1014.20 em taxas e 6468.40 de subsídio. Para pagar por um imóvel de 129368.00, cuja entrada dada foi de 76030.20.
-
-==========nova situação do banco: Espécie: 320495.03, taxas: 41815.60, subsídio: 56827.39==========
-
-Pessoa #20 pegou emprestado: 16981.80 em espécie, 2044.80 em taxas e 29222.40 de subsídio. Para pagar por um imóvel de 146112.00, cuja entrada dada foi de 99907.80.
-
-==========nova situação do banco: Espécie: 303513.22, taxas: 39770.80, subsídio: 27604.99==========
-
-Pessoa #19 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-Pessoa #20 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+==========nova situação do banco: Espécie: 598067.12, taxas: 33033.32, subsídio: 146191.69==========
 
 Pessoa #5 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#2: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #3 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-Pessoa #22 pegou emprestado: 87803.50 em espécie, 1959.38 em taxas e 26861.50 de subsídio. Para pagar por um imóvel de 268615.00, cuja entrada dada foi de 153950.00.
+Pessoa #7 pegou emprestado: 8906.20 em espécie, 535.58 em taxas e 4732.60 de subsídio. Para pagar por um imóvel de 23663.00, cuja entrada dada foi de 10024.20.
 
-==========nova situação do banco: Espécie: 215709.72, taxas: 37811.42, subsídio: 743.49==========
+==========nova situação do banco: Espécie: 589160.94, taxas: 32497.75, subsídio: 141459.09==========
 
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #6 pegou emprestado: 84038.55 em espécie, 361.02 em taxas e 14442.05 de subsídio. Para pagar por um imóvel de 288841.00, cuja entrada dada foi de 190360.41.
 
-Pessoa #22 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+==========nova situação do banco: Espécie: 505122.38, taxas: 32136.73, subsídio: 127017.05==========
 
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #2 pegou emprestado: 156357.00 em espécie, 5863.00 em taxas e 17258.00 de subsídio. Para pagar por um imóvel de 345160.00, cuja entrada dada foi de 171545.00.
 
-#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 348765.38, taxas: 26273.73, subsídio: 109759.05==========
 
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #8 pegou emprestado: 322176.47 em espécie, 11672.48 em taxas e 29600.95 de subsídio. Para pagar por um imóvel de 592019.00, cuja entrada dada foi de 240241.59.
 
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 26588.91, taxas: 14601.25, subsídio: 80158.09==========
 
-#23: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
 #11: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#8: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 920732.88, taxas: 76979.38, subsídio: 79079.39
-
-#6: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1062450.50, taxas: 84852.58, subsídio: 94825.79
-
-#7: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1070619.25, taxas: 85363.12, subsídio: 96867.99
-
-#5: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1400320.50, taxas: 102715.83, subsídio: 114220.70
-
-#20: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1517210.12, taxas: 110021.43, subsídio: 143443.09
-
-#19: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1640109.75, taxas: 116489.83, subsídio: 149911.50
-
-#22: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1881863.25, taxas: 129920.58, subsídio: 176773.00
-
-#19: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#6: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-==========O banco atendeu mais do que 5 pessoas e recebeu um bônus de 50% na sua capacidade de subsídio por parte do governo
-
-Pessoa #15 pegou emprestado: 259512.00 em espécie, 6449.62 em taxas e 170421.00 de subsídio. Para pagar por um imóvel de 852105.00, cuja entrada dada foi de 422172.00.
-
-==========nova situação do banco: Espécie: 1622351.25, taxas: 123470.95, subsídio: 147770.41==========
-
-Pessoa #9 pegou emprestado: 26325.00 em espécie, 1793.00 em taxas e 49640.00 de subsídio. Para pagar por um imóvel de 248200.00, cuja entrada dada foi de 172235.00.
-
-==========nova situação do banco: Espécie: 1596026.25, taxas: 121677.95, subsídio: 98130.41==========
-
-Pessoa #21 pegou emprestado: 452217.00 em espécie, 20119.50 em taxas e 42335.00 de subsídio. Para pagar por um imóvel de 846700.00, cuja entrada dada foi de 352148.00.
-
-==========nova situação do banco: Espécie: 1143809.25, taxas: 101558.45, subsídio: 55795.41==========
-
-Pessoa #11 pegou emprestado: 120102.49 em espécie, 4274.52 em taxas e 50762.10 de subsídio. Para pagar por um imóvel de 507621.00, cuja entrada dada foi de 336756.41.
-
-==========nova situação do banco: Espécie: 1023706.75, taxas: 97283.93, subsídio: 5033.30==========
-
-#13: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#18: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#10: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#24: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
 #4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#7: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #7 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#5: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+Pessoa #6 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#20: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#9: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#2: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-Pessoa #15 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-Pessoa #21 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-Pessoa #11 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-Pessoa #9 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#3: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 1828071.75, taxas: 139618.94, subsídio: 47368.30
-
-#11: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 2284930.75, taxas: 164999.98, subsídio: 98130.41
-
-#15: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 2966614.75, taxas: 207605.23, subsídio: 268551.41
-
-#9: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 3165174.75, taxas: 220015.23, subsídio: 318191.41
-
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#6: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-Pessoa #13 pegou emprestado: 164222.39 em espécie, 762.65 em taxas e 170389.20 de subsídio. Para pagar por um imóvel de 851946.00, cuja entrada dada foi de 517334.41.
-
-==========nova situação do banco: Espécie: 3000952.25, taxas: 219252.58, subsídio: 147802.20==========
-
-Pessoa #10 pegou emprestado: 290860.00 em espécie, 13631.95 em taxas e 62515.80 de subsídio. Para pagar por um imóvel de 625158.00, cuja entrada dada foi de 271782.19.
-
-==========nova situação do banco: Espécie: 2710092.25, taxas: 205620.62, subsídio: 85286.41==========
-
-Pessoa #2 pegou emprestado: 183156.98 em espécie, 4969.55 em taxas e 55994.20 de subsídio. Para pagar por um imóvel de 559942.00, cuja entrada dada foi de 320790.81.
-
-==========nova situação do banco: Espécie: 2526935.25, taxas: 200651.08, subsídio: 29292.21==========
-
-Pessoa #13 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#15: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-Pessoa #10 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-Pessoa #3 pegou emprestado: 63256.00 em espécie, 735.35 em taxas e 13825.40 de subsídio. Para pagar por um imóvel de 138254.00, cuja entrada dada foi de 61172.60.
-
-==========nova situação do banco: Espécie: 2463679.25, taxas: 199915.73, subsídio: 15466.81==========
+Pessoa #8 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
 Pessoa #2 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-Pessoa #3 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+#7: Dinheiro devolvido.
 
-#18: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 45519.30, taxas: 15784.40, subsídio: 84890.70
 
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+#5: Dinheiro devolvido.
 
-#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+nova situação do banco: Espécie: 241384.59, taxas: 26093.10, subsídio: 95199.40
 
-#20: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#6: Dinheiro devolvido.
 
-#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#0: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#23: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#21: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#5: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#7: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#24: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#19: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#13: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 3145236.00, taxas: 242513.03, subsídio: 185856.02
-
-#10: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 3707878.25, taxas: 273770.94, subsídio: 248371.81
+nova situação do banco: Espécie: 515783.53, taxas: 40535.15, subsídio: 109641.45
 
 #2: Dinheiro devolvido.
 
-nova situação do banco: Espécie: 4211826.00, taxas: 301768.03, subsídio: 304366.00
+nova situação do banco: Espécie: 843685.50, taxas: 57793.15, subsídio: 126899.45
+
+#8: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 1406103.50, taxas: 87394.10, subsídio: 156500.39
 
 #3: Dinheiro devolvido.
 
-nova situação do banco: Espécie: 4336254.50, taxas: 308680.72, subsídio: 318191.41
+nova situação do banco: Espécie: 1555233.88, taxas: 96714.75, subsídio: 193783.00
 
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#7: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 #8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#15: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#5: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+
+#6: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 ==========O banco atendeu mais do que 5 pessoas e recebeu um bônus de 50% na sua capacidade de subsídio por parte do governo
 
-Pessoa #0 pegou emprestado: 170702.78 em espécie, 2635.55 em taxas e 154444.41 de subsídio. Para pagar por um imóvel de 772222.00, cuja entrada dada foi de 447074.81.
+Pessoa #9 pegou emprestado: 69283.79 em espécie, 3586.67 em taxas e 116597.40 de subsídio. Para pagar por um imóvel de 582987.00, cuja entrada dada foi de 397105.81.
 
-==========nova situação do banco: Espécie: 4165551.75, taxas: 306045.16, subsídio: 375874.59==========
+==========nova situação do banco: Espécie: 1485950.12, taxas: 93128.08, subsídio: 154698.78==========
 
-Pessoa #1 pegou emprestado: 252057.61 em espécie, 3547.60 em taxas e 162524.80 de subsídio. Para pagar por um imóvel de 812624.00, cuja entrada dada foi de 398041.59.
+Pessoa #0 pegou emprestado: 171307.00 em espécie, 3969.95 em taxas e 37919.80 de subsídio. Para pagar por um imóvel de 379198.00, cuja entrada dada foi de 169971.20.
 
-==========nova situação do banco: Espécie: 3913494.25, taxas: 302497.56, subsídio: 213349.80==========
+==========nova situação do banco: Espécie: 1314643.12, taxas: 89158.12, subsídio: 116778.98==========
 
-Pessoa #23 pegou emprestado: 291161.00 em espécie, 17639.90 em taxas e 82047.60 de subsídio. Para pagar por um imóvel de 820476.00, cuja entrada dada foi de 447267.41.
+Pessoa #9 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-==========nova situação do banco: Espécie: 3622333.25, taxas: 284857.66, subsídio: 131302.19==========
+Pessoa #10 pegou emprestado: 290140.50 em espécie, 2094.12 em taxas e 63392.50 de subsídio. Para pagar por um imóvel de 633925.00, cuja entrada dada foi de 280392.00.
 
-Pessoa #1 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-Pessoa #23 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 Pessoa #0 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-Pessoa #18 pegou emprestado: 286369.00 em espécie, 2470.00 em taxas e 65828.00 de subsídio. Para pagar por um imóvel de 658280.00, cuja entrada dada foi de 306083.00.
-
-==========nova situação do banco: Espécie: 3335964.25, taxas: 282387.66, subsídio: 65474.19==========
-
-#21: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-Pessoa #18 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#17: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-Pessoa #4 pegou emprestado: 223516.80 em espécie, 2886.40 em taxas e 37362.80 de subsídio. Para pagar por um imóvel de 747256.00, cuja entrada dada foi de 486376.41.
-
-==========nova situação do banco: Espécie: 3112447.50, taxas: 279501.25, subsídio: 28111.39==========
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-Pessoa #4 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#20: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#14: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#5: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#6: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#19: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#7: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#13: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#12: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
-
-#9: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#10: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#16: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+==========nova situação do banco: Espécie: 1024502.62, taxas: 87064.00, subsídio: 53386.48==========
 
 #3: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#4: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
 
-#24: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+Pessoa #10 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#1: Dinheiro devolvido.
+Pessoa #11 pegou emprestado: 166538.95 em espécie, 3614.23 em taxas e 16646.45 de subsídio. Para pagar por um imóvel de 332929.00, cuja entrada dada foi de 149743.59.
 
-nova situação do banco: Espécie: 3762546.75, taxas: 320132.44, subsídio: 190636.19
+==========nova situação do banco: Espécie: 857963.69, taxas: 83449.77, subsídio: 36740.03==========
+
+Pessoa #11 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+#1: Não foi possível executar e está esperando que as outras acabem para uma nova tentativa.
+
+#11: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 1174246.25, taxas: 100096.22, subsídio: 53386.48
 
 #0: Dinheiro devolvido.
 
-nova situação do banco: Espécie: 4380324.50, taxas: 358743.53, subsídio: 345080.59
+nova situação do banco: Espécie: 1515524.50, taxas: 119056.12, subsídio: 91306.28
 
-#18: Dinheiro devolvido.
+#9: Dinheiro devolvido.
 
-nova situação do banco: Espécie: 4972776.50, taxas: 391657.53, subsídio: 410908.59
+nova situação do banco: Espécie: 1981914.12, taxas: 148205.47, subsídio: 207903.69
 
-#23: Dinheiro devolvido.
+#10: Dinheiro devolvido.
 
-nova situação do banco: Espécie: 5711205.00, taxas: 432681.34, subsídio: 492956.19
-
-#4: Dinheiro devolvido.
-
-nova situação do banco: Espécie: 6421098.00, taxas: 470044.16, subsídio: 530319.00
+nova situação do banco: Espécie: 2552446.50, taxas: 179901.72, subsídio: 271296.19
 
 #8: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#22: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#15: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-==========O banco atendeu mais do que 5 pessoas e recebeu um bônus de 50% na sua capacidade de subsídio por parte do governo
-
-Pessoa #17 pegou emprestado: 335108.00 em espécie, 1539.50 em taxas e 70086.00 de subsídio. Para pagar por um imóvel de 700860.00, cuja entrada dada foi de 295666.00.
-
-==========nova situação do banco: Espécie: 6085990.00, taxas: 468504.66, subsídio: 460233.00==========
-
-#5: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-Pessoa #17 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#20: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-Pessoa #14 pegou emprestado: 229942.00 em espécie, 10992.90 em taxas e 65195.60 de subsídio. Para pagar por um imóvel de 651956.00, cuja entrada dada foi de 356818.41.
-
-==========nova situação do banco: Espécie: 5856048.00, taxas: 457511.75, subsídio: 395037.41==========
-
 #7: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#19: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-Pessoa #14 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-Pessoa #12 pegou emprestado: 141804.50 em espécie, 553.93 em taxas e 30851.70 de subsídio. Para pagar por um imóvel de 308517.00, cuja entrada dada foi de 135860.80.
-
-==========nova situação do banco: Espécie: 5714243.50, taxas: 456957.81, subsídio: 364185.72==========
-
-Pessoa #12 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#9: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 #6: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#1: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#23: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#18: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-Pessoa #24 pegou emprestado: 200308.50 em espécie, 3392.52 em taxas e 42898.10 de subsídio. Para pagar por um imóvel de 428981.00, cuja entrada dada foi de 185774.41.
-
-==========nova situação do banco: Espécie: 5513935.00, taxas: 453565.28, subsídio: 321287.62==========
-
-#10: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-Pessoa #24 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#3: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-#13: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
-
-Pessoa #16 pegou emprestado: 126519.21 em espécie, 8233.33 em taxas e 97714.60 de subsídio. Para pagar por um imóvel de 488573.00, cuja entrada dada foi de 264339.19.
-
-==========nova situação do banco: Espécie: 5387416.00, taxas: 445331.97, subsídio: 223573.03==========
-
-Pessoa #16 conseguiu financiamento e está juntando o dinheiro para poder devolver.
-
-#21: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#2: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
 #0: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#4: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
+#5: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#14: Dinheiro devolvido.
+Pessoa #1 pegou emprestado: 64404.60 em espécie, 3105.10 em taxas e 111616.80 de subsídio. Para pagar por um imóvel de 558084.00, cuja entrada dada foi de 382062.59.
 
-nova situação do banco: Espécie: 5974176.50, taxas: 477929.78, subsídio: 288768.62
+#11: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#24: Dinheiro devolvido.
+==========nova situação do banco: Espécie: 2488042.00, taxas: 176796.62, subsídio: 159679.38==========
 
-nova situação do banco: Espécie: 6360259.50, taxas: 499378.84, subsídio: 331666.72
+#10: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#17: Dinheiro devolvido.
+#9: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-nova situação do banco: Espécie: 6991033.50, taxas: 534421.88, subsídio: 401752.72
+#3: Foi ser testada, porém já executou. Está esperando as outras terminarem para uma nova rodada de testes.
 
-#12: Dinheiro devolvido.
+Pessoa #4 pegou emprestado: 84090.21 em espécie, 5557.20 em taxas e 94705.60 de subsídio. Para pagar por um imóvel de 473528.00, cuja entrada dada foi de 294732.19.
 
-nova situação do banco: Espécie: 7268699.00, taxas: 549847.75, subsídio: 432604.41
+==========nova situação do banco: Espécie: 2403951.75, taxas: 171239.42, subsídio: 64973.77==========
 
-#16: Dinheiro devolvido.
+Pessoa #1 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-nova situação do banco: Espécie: 7659557.50, taxas: 574276.38, subsídio: 530319.00
+Pessoa #4 conseguiu financiamento e está juntando o dinheiro para poder devolver.
 
-#11: Já terminou a execução e espera para se juntar às outras na main.
+#4: Dinheiro devolvido.
 
-#15: Já terminou a execução e espera para se juntar às outras na main.
+nova situação do banco: Espécie: 2782774.25, taxas: 194915.83, subsídio: 159679.38
+
+#1: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 3229241.50, taxas: 222820.03, subsídio: 271296.19
+
+#6: Já terminou a execução e espera para se juntar às outras na main.
 
 #8: Já terminou a execução e espera para se juntar às outras na main.
 
-#22: Já terminou a execução e espera para se juntar às outras na main.
+#0: Já terminou a execução e espera para se juntar às outras na main.
 
 #5: Já terminou a execução e espera para se juntar às outras na main.
 
 #7: Já terminou a execução e espera para se juntar às outras na main.
 
-#9: Já terminou a execução e espera para se juntar às outras na main.
-
-#19: Já terminou a execução e espera para se juntar às outras na main.
-
-#6: Já terminou a execução e espera para se juntar às outras na main.
-
-#20: Já terminou a execução e espera para se juntar às outras na main.
-
 #2: Já terminou a execução e espera para se juntar às outras na main.
 
-#1: Já terminou a execução e espera para se juntar às outras na main.
-
-#23: Já terminou a execução e espera para se juntar às outras na main.
-
-#14: Já terminou a execução e espera para se juntar às outras na main.
-
-#13: Já terminou a execução e espera para se juntar às outras na main.
-
-#18: Já terminou a execução e espera para se juntar às outras na main.
-
-#21: Já terminou a execução e espera para se juntar às outras na main.
+#9: Já terminou a execução e espera para se juntar às outras na main.
 
 #10: Já terminou a execução e espera para se juntar às outras na main.
 
-#12: Já terminou a execução e espera para se juntar às outras na main.
+#1: Já terminou a execução e espera para se juntar às outras na main.
 
 #3: Já terminou a execução e espera para se juntar às outras na main.
 
-#16: Já terminou a execução e espera para se juntar às outras na main.
-
-#17: Já terminou a execução e espera para se juntar às outras na main.
+#11: Já terminou a execução e espera para se juntar às outras na main.
 
 #4: Já terminou a execução e espera para se juntar às outras na main.
-
-#0: Já terminou a execução e espera para se juntar às outras na main.
-
-#24: Já terminou a execução e espera para se juntar às outras na main.
 
 
 
@@ -519,17 +207,15 @@ nova situação do banco: Espécie: 7659557.50, taxas: 574276.38, subsídio: 530
 		Apresentação dos resultados:
 
 
-		Situação do banco: Espécie: 7659557.50, taxas: 574276.38, subsídio: 530319.00
+		Situação do banco: Espécie: 3229241.50, taxas: 222820.03, subsídio: 271296.19
 
 		Ordem segura de empréstimo dos recursos: Thread(momento)
-6(0) ---> 7(0) ---> 8(0) ---> 5(0) ---> 19(0) ---> 20(0) ---> 22(0) ---> 15(1) ---> 21(1) ---> 11(1) ---> 9(1) ---> 13(2) ---> 10(2) ---> 2(2) ---> 3(2) ---> 0(3) ---> 1(3) ---> 23(3) ---> 18(3) ---> 4(3) ---> 17(4) ---> 14(4) ---> 12(4) ---> 24(4) ---> 16(4) 
+5(0) ---> 3(0) ---> 7(0) ---> 6(0) ---> 2(0) ---> 8(0) ---> 9(1) ---> 0(1) ---> 10(1) ---> 11(1) ---> 1(2) ---> 4(2) 
 
 As seguintes threads executaram em conjunto:
-Momento #0: Threads: 5 6 7 8 19 20 22 
-Momento #1: Threads: 9 11 15 21 
-Momento #2: Threads: 2 3 10 13 
-Momento #3: Threads: 0 1 4 18 23 
-Momento #4: Threads: 12 14 16 17 24 
+Momento #0: Threads: 2 3 5 6 7 8 
+Momento #1: Threads: 0 9 10 11 
+Momento #2: Threads: 1 4 
 
 
 
