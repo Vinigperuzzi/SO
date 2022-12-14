@@ -2,3 +2,53 @@
 
 			Início do log
 
+
+Situação inicial do banco: Espécie: 811088.00, taxas: 41813.00, subsídio: 170647.00
+
+Pessoa #0 pegou emprestado: 86697.39 em espécie, 10314.40 em taxas e 117195.20 de subsídio. Para pagar por um imóvel de 585976.00, cuja entrada dada foi de 382083.41.
+
+==========nova situação do banco: Espécie: 724390.62, taxas: 31498.60, subsídio: 53451.80==========
+
+Pessoa #0 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+Pessoa #1 pegou emprestado: 260697.80 em espécie, 2341.90 em taxas e 31729.80 de subsídio. Para pagar por um imóvel de 634596.00, cuja entrada dada foi de 342168.41.
+
+==========nova situação do banco: Espécie: 463692.81, taxas: 29156.70, subsídio: 21722.00==========
+
+Pessoa #1 conseguiu financiamento e está juntando o dinheiro para poder devolver.
+
+#0: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 932473.62, taxas: 58455.50, subsídio: 138917.20
+
+#1: Dinheiro devolvido.
+
+nova situação do banco: Espécie: 1535339.75, taxas: 90185.30, subsídio: 170647.00
+
+#0: Já terminou a execução e espera para se juntar às outras na main.
+
+#1: Já terminou a execução e espera para se juntar às outras na main.
+
+
+
+
+		Fim da execução
+
+		Apresentação dos resultados:
+
+
+		Situação do banco: Espécie: 1535339.75, taxas: 90185.30, subsídio: 170647.00
+
+		Ordem segura de empréstimo dos recursos: Thread(momento)
+0(0) ---> 1(0) 
+
+As seguintes threads executaram em conjunto:
+Momento #0: Threads: 0 1 
+
+
+
+
+
+			Fim do arquivo
+
+
